@@ -1,60 +1,71 @@
 <div align="center">
 
-# Pós Tech FIAP - Hackathon - Grupo 12
+# 🎯 Pós Tech FIAP - Hackathon - Grupo 12
 
 ![GitHub Release Date](https://img.shields.io/badge/Release%20Date-Abril%202025-yellowgreen)
-![](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellowgreen)
-<br>
-![](https://img.shields.io/badge/Version-%20v1.0.0-brightgreen)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellowgreen)
+![Version](https://img.shields.io/badge/Version-v1.0.0-brightgreen)
+
 </div>
 
-### 👨‍💼👩‍💼‍ Autores
+---
 
-Este é um projeto que está em construção pelos desenvolvedores:
+## 👥 Autores
 
-![](https://img.shields.io/badge/RM357321-Alexandre%20Miranda-blue)
-<br>
-![](https://img.shields.io/badge/RM357437-Diego%20Ceccon-blue)
-<br>
-![](https://img.shields.io/badge/RM357218-Jéssica%20Rodrigues%20-blue)
-<br>
-![](https://img.shields.io/badge/RM358002-Rodrigo%20Sartori-blue)
-<br>
-![](https://img.shields.io/badge/RM357991-Wilton%20Souza%20-blue)
+Este projeto está sendo desenvolvido por:
 
-### ⚠️ Problema
+- 👨‍💻 **Alexandre Miranda** – RM357321  
+- 👨‍💻 **Diego Ceccon** – RM357437  
+- 👩‍💻 **Jéssica Rodrigues** – RM357218  
+- 👨‍💻 **Rodrigo Sartori** – RM358002  
+- 👨‍💻 **Wilton Souza** – RM357991  
 
-<p align="justify">
-A empresa FIAP X contratou a equipe para melhorar um projeto de processamento de imagens. Esse projeto pega um vídeo, extrai as imagens dele e gera um arquivo .zip. A ideia foi apresentada para investidores, que gostaram bastante e agora querem uma versão onde seja possível enviar um vídeo e depois fazer o download do arquivo gerado.
-Atualmente, o projeto não segue boas práticas de arquitetura de software. Por isso, o desafio será desenvolver uma nova versão da aplicação usando os conhecimentos aprendidos no curso, como organização da arquitetura, uso de microsserviços, qualidade de software, mensageria, entre outros.
-</p>
+---
 
-## 🎥 Vídeo de apresentação
+## ⚠️ Desafio
 
-Para assistir ao vídeo de apresentação do projeto, que contém:
-- A descrição detalhada do problema
-- Arquitetura utilizada no projeto
-- Solução de infraestrutura proposta
-- Demonstração da aplicação em funcionamento
+A empresa **FIAP X** contratou a equipe para melhorar um projeto de processamento de imagens. A versão atual recebe um vídeo, extrai imagens e gera um arquivo `.zip`. 
 
-basta acessar o link: [Apresentação no Youtube]()
+Essa versão foi apresentada para investidores, que aprovaram a ideia e agora desejam uma solução onde seja possível **enviar um vídeo pela aplicação e fazer o download do arquivo gerado**.
 
-### Repositório
+No entanto, o projeto original **não segue boas práticas de arquitetura**, e o desafio é reconstruí-lo com base nos conhecimentos adquiridos no curso, como:
 
-Repositório que compõem a aplicação e a infraestrutura.
+- Organização e desenho de arquitetura
+- Uso de microsserviços
+- Qualidade de software
+- Mensageria e filas
+- Observabilidade
+- Boa prática de infraestrutura como código
 
-Ordem de execução: 
-1. **[VPC](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-vpc)**: Contém os arquivos terraform de criação da VPC.
-2. **[BD](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-db)**: Contém os arquivos terraform de criação dos Bancos de Dados no RDS.
-3. **[Queue](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-queue)**: Contém os arquivos terraform de criação das filas usando o SQS.
-4. **[K8S - Cluster](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-k8s-cluster)**: Contém os arquivos terraform de criação do Cluster da aplicação.
-5. **[K8S - Infra](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-k8s-infra)**: Contém os arquivos terraform de criação da Infraestrutura da aplicação.
-6. **[Observability](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-observability)**: Contém os arquivos terraform de criação dos recursos de observação da aplicação.
-7. **[Lambda Receive Video](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-lambda-video-receive)**: Contém os arquivos terraform de criação da Lambda Receive que recebe o video e manda para o processamento.
-8. **[Lambda Authorizer](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-lambda-authorizer)**: Contém os arquivos terraform de criação da Lambda Authorize.
-9. **[Cognito](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-cognito)**: Contém os arquivos terraform de criação do Cognito.
-10. **[Gateway](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-api-gateway)**: Contém os arquivos terraform de criação da API Gateway.
-11. **[Mail](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-mail)**: Contém os arquivos terraform de criação de Mail, responsável por enviar o email após o processamento do video e do ECR da aplicação.
-12. **[Process](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-process)**: Contém os arquivos terraform de criação de Process, responsável pelo processamento do video e do ECR da aplicação.
-13. **[Video API - Orquestrador](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-video)**: Contém os arquivos terraform de criação da Video API (Orquestrador) e do ECR da aplicação.
-14. **[Frontend - Alquimia Frames](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-frontend)**: Contém os arquivos terraform de criação do front-end da aplicação.
+---
+
+## 🎥 Vídeo de Apresentação
+
+O vídeo inclui:
+- Descrição completa do problema
+- Arquitetura da solução
+- Infraestrutura adotada
+- Demonstração da aplicação funcionando
+
+🔗 [Clique aqui para assistir no YouTube](#)
+
+---
+
+## 🗂️ Repositórios do Projeto
+
+> Ordem de execução recomendada:
+
+1. **[VPC](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-vpc)** – Criação da VPC com Terraform  
+2. **[BD](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-db)** – Bancos de dados no RDS  
+3. **[Queue](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-queue)** – Filas via SQS  
+4. **[K8S - Cluster](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-k8s-cluster)** – Cluster Kubernetes  
+5. **[K8S - Infra](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-k8s-infra)** – Infraestrutura da aplicação  
+6. **[Observability](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-observability)** – Monitoramento e logs  
+7. **[Lambda Receive Video](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-lambda-video-receive)** – Lambda responsável por receber o vídeo  
+8. **[Lambda Authorizer](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-lambda-authorizer)** – Lambda de autorização  
+9. **[Cognito](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-cognito)** – Autenticação via Cognito  
+10. **[Gateway](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-api-gateway)** – API Gateway  
+11. **[Mail](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-mail)** – Envio de e-mails após o processamento  
+12. **[Process](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-process)** – Processamento do vídeo (ECR incluso)  
+13. **[Video API - Orquestrador](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-video)** – Orquestrador principal da aplicação  
+14. **[Frontend - Alquimia Frames](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-frontend)** – Interface gráfica do usuário (frontend)
