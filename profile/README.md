@@ -47,7 +47,7 @@ O vídeo inclui:
 - Infraestrutura adotada
 - Demonstração da aplicação funcionando
 
-🔗 [Clique aqui para assistir no YouTube](#)
+🔗 [Clique aqui para assistir no YouTube](https://youtu.be/PUwYsQpiJlc)
 
 ---
 
