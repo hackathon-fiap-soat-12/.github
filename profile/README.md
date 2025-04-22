@@ -69,3 +69,11 @@ O vídeo inclui:
 12. **[Gateway](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-api-gateway)** – API Gateway  
 13. **[Cognito](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-cognito)** – Autenticação via Cognito
 14. **[Frontend - Alquimia Frames](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-frontend)** – Interface gráfica do usuário (frontend)
+
+## Diagrama C4 da solução
+
+![c4-diagram](../assets/DiagramaC4.png)
+
+## Desenho da infraestrutura
+
+![infra-diagram](../assets/diagrama-arquitetura.drawio.png)
