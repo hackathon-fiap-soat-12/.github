@@ -65,7 +65,7 @@ O vídeo inclui:
 8. **[Lambda Authorizer](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-lambda-authorizer)** – Lambda de autorização  
 9. **[Cognito](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-cognito)** – Autenticação via Cognito  
 10. **[Gateway](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-api-gateway)** – API Gateway  
-11. **[Mail](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-mail)** – Envio de e-mails após o processamento  
+11. **[Mail](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-mail)** – Envio de e-mails após o processamento (ECR incluso)
 12. **[Process](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-process)** – Processamento do vídeo (ECR incluso)  
-13. **[Video API - Orquestrador](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-video)** – Orquestrador principal da aplicação  
+13. **[Video API - Orquestrador](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-video)** – Orquestrador principal da aplicação (ECR incluso)
 14. **[Frontend - Alquimia Frames](https://github.com/hackathon-fiap-soat-12/fiap-hackathon-frontend)** – Interface gráfica do usuário (frontend)
