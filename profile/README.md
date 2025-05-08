@@ -3,7 +3,7 @@
 # 🎯 Pós Tech FIAP - Hackathon - Grupo 12
 
 ![GitHub Release Date](https://img.shields.io/badge/Release%20Date-Abril%202025-yellowgreen)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellowgreen)
+![Status](https://img.shields.io/badge/Status-Desenvolvido-brightgreen)
 ![Version](https://img.shields.io/badge/Version-v1.0.0-brightgreen)
 
 </div>
